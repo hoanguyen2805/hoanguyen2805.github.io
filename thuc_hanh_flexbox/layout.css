@@ -49,7 +49,7 @@ body {
 /* Column container */
 .row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 /* Tạo hai cột không bằng nhau nằm cạnh nhau */

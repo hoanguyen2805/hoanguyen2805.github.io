@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <style>
-        div {
-            width: 400px;
-            height: 400px;
-            border: 1px solid black;
+        .center {
+            height: 200px;
             position: relative;
+            border: 3px solid purple;
         }
 
-        p {
-            border: 1px solid tan;
-            background-color: teal;
-            width: 100px;
-            height: 100px;
+        .giua {
+            margin: auto;
             position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            margin: auto auto;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .flexbox{
+            display: flex;
+            width: 500px;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <p>xin chao</p>
+    <div class="center">
+        <img class="giua" src="./images/anh-hoa-dao-4412.jpg" alt="hoa" width="100px" height="100px">
     </div>
-    <span>xyz</span>
+    <div class="flexbox">
+        <div>reprehenderit aliqua nulla velit sint amet eu.</div>
+    </div>
 </body>
 
 </html>
