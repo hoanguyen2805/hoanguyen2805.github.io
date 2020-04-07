@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #e9d8f4;
+            position: fixed;
+            top: 0; /* sử dụng bottom: 0 nếu muốn đặt thanh cuộn xuống dưới */
+            width: 100%;
+            position: sticky;
+            position: -webkit-sticky;
+        }
+
+        /* */
+        li {
+            /* hoặc dùng  */
+            /* display: inline-block; */
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* di chuột vào, trừ phần tử đang được active */
+        li a:hover:not(.active) {
+            color: white;
+            background-color: #db7093;
+            font-weight: bold;
+        }
+
+        .active {
+            background-color: #58257b;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2 style="text-align: center;">Website Quản trị mạng</h2>
+          <p style="text-align: center;">Kiến thức - Kinh nghiệm - Hỏi đáp</p>
+      </div>
+    <ul>
+        <li><a class="active" href="https://quantrimang.com/">Trang chủ</a></li>
+        <li><a href="https://quantrimang.com/lang-cong-nghe">Làng công nghệ</a></li>
+        <li><a href="https://quantrimang.com/cong-nghe">Khoa học</a></li>
+        <li><a href="https://quantrimang.com/cuoc-song">Cuộc sống</a></li>
+    </ul>
+
+    <div style="padding:20px; margin-top:30px; background-color:#36164c;
+      color:white; height:1500px;">
+        <h2>Giới thiệu về CSS (by: Quantrimang.com)</h2>
+        <p><strong>CSS giúp ích rất nhiều khi viết một trang web bằng HTML.
+            </strong></p>
+        <h3>CSS là gì?</h3>
+        <p>CSS là viết tắt của cụm từ tiếng Anh "Cascading Style Sheet".</p>
+        <p>CSS mô tả cách các phần tử HTML hiển thị trên màn hình và các phương
+            tiện khác.</p>
+        <p>CSS rất hữu ích và tiện lợi. Nó có thể kiểm soát tất cả các trang
+            trên một website.</p>
+        <p>Các stylesheet ngoài được lưu trữ dưới dạng các tập tin .CSS.</p>
+        <h3>Vì sao nên dùng CSS?</h3>
+        <p>CSS được dùng để định nghĩa kiểu cách cho các trang trên website của
+            bạn, gồm cả thiết kế, dàn trang và các cách hiển thị khác nhau trên
+            nhiều thiết bị với kích thước màn hình khác nhau.</p>
+        <h3>CSS giúp giải quyết vấn đề lớn của HTML.</h3>
+        <p>HTML không có phần tử để để định dạng cho trang web. HTML chỉ được
+            dùng để tạo nội dung cho trang. Khi các phần tử như <font> và thuộc tính
+                màu sắc được thêm vào HTML 3.2, cơn ác mộng của các nhà phát triển web
+                bắt đầu.</p>
+        <p>Để giải quyết vấn đề này, World Wide Web Consortium (W3C) đã tạo ra
+            CSS, giúp loại bỏ việc định dạng kiểu cách khỏi trang HTML.</p>
+    </div>
+</body>
+
+</html>
