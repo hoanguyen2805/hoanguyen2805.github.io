@@ -29,6 +29,7 @@ body {
 /* Định dạng navigation bar */
 .navbar {
   display: flex;
+  justify-content: space-evenly;
   background-color: #58257b;
 }
 
