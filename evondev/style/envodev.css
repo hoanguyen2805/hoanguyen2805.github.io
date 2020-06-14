@@ -151,6 +151,9 @@ header{
     .container{
         width: 92%;
     }
+    .top-bar__logo > img{
+        width: 10%;
+    }
     .top-bar__logo > h1{
         padding-bottom: 2rem;
        
